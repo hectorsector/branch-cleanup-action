@@ -17,7 +17,7 @@ if [[ -z "$GITHUB_REPOSITORY" ]]; then
 fi
 
 URI=https://api.github.com
-API_VERSION=v3
+API_VERSION=antiope-preview
 API_HEADER="Accept: application/vnd.github.${API_VERSION}+json"
 AUTH_HEADER="Authorization: token ${GITHUB_TOKEN}"
 
